@@ -15,11 +15,11 @@ public class Cadastrar {
 		int qtde = 0;
 		Alunos cadastro = null;
 		
-	    qtde = Integer.parseInt(JOptionPane.showInputDialog(null, "Quantos alunos você quer cadastrar ? : "));
+	    qtde = Integer.parseInt(JOptionPane.showInputDialog(null, "Quantos alunos vocÃª quer cadastrar ? : "));
 
 	    for(int i=0; i < qtde; i++){
 	    	
-			nome = JOptionPane.showInputDialog(null,"Digite o nome do aluno: ");
+		    nome = JOptionPane.showInputDialog(null,"Digite o nome do aluno: ");
 		    idade = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite a idade do aluno: "));
 		
 		    cadastro = new Alunos(qtde,nome,idade);
